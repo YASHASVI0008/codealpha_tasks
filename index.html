@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Responsive Image Gallery</h1>
+
+        <!-- Filter Buttons -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+        </div>
+    </header>
+
+    <!-- Gallery -->
+    <section class="gallery">
+
+        <div class="image nature">
+            <img src="nature1.webp" alt="">
+        </div>
+
+        <div class="image nature">
+            <img src="nature2.webp" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="city1.webp" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="city2.webp" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="animal1.webp" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="animal2.webp" alt="">
+        </div>
+
+    </section>
+
+    <!-- Lightbox -->
+
+    <div class="lightbox">
+
+        <span class="close">&times;</span>
+
+        <button class="prev">&#10094;</button>
+
+        <img class="lightbox-img">
+
+        <button class="next">&#10095;</button>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
